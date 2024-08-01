@@ -18,11 +18,11 @@ int discount=20000;
 if((qual.equals("b.tech")||qual.equals("MCA")||qual.equals("M.tech")) && (percent>=60) && (year==2023 ||year==2024) &&(skills.equals("java")||skills.equals("python")) &&(exam.equals("qualify")))
 {
  fee=fee-discount;
- System.out.println(fee);
+ System.out.println(fees);
  System.out.println("Eligible");
 }
 else{
- System.out.println("Not Eligible");
+ System.out.println("Nonnn Eligible");
 }
 }
 }

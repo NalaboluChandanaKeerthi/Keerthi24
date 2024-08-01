@@ -7,7 +7,7 @@ int num=sc.nextInt();
 System.out.println("Enter a factorial: ");
 int fact=sc.nextInt();
 while(num>=1){
-fact=num*fact;
+fact=num*fact1;
 num--;
 }
 System.out.println(fact);
